@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Print github context
         run: |
-          echo "${{github}}"
+          echo "${{toJson(github)}}"
